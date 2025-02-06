@@ -72,7 +72,6 @@ query_prompt = PromptTemplate(
 )
 
 ## Initiate the MultiQueryRetriever
-
 retriever = MultiQueryRetriever.from_llm(
     retriever = vector_db.as_retriever(),
     llm = llm,
