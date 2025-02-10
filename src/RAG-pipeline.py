@@ -92,7 +92,7 @@ chain = (
     | StrOutputParser()
 )
 
-query = "How many metro stations are there in India?"
+query = "Which city in India has the oldest metro system?"
 response = chain.invoke(query)
 print(response)
 
